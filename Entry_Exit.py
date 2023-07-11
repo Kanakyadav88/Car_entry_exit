@@ -67,7 +67,7 @@ def exit(car_number, cur_time, exit_gate):
         
 
 start = time.time()
-enter("DL1CX2621", str(dt.now()))
+enter("DL1CX2621", str(dt.now()),1)
 end = time.time()
 print(end-start)
-exit("DL1CX2621", str(dt.now()))
+exit("DL1CX2621", str(dt.now()),2)
